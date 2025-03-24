@@ -35,10 +35,6 @@ svg {
   height: 24px;
 }
 
-header {
-  padding: 15px;
-}
-
 header p {
   margin-top: 1%;
 }
@@ -64,18 +60,25 @@ header h1 a:active {
 }
 
 h1 {
-  font-size: 52px;
+  font-size: 62px;
   font-weight: 800;
+  margin-bottom: 0.5%;
 }
 
 h2 {
-  font-size: 44px;
+  font-size: 52px;
   font-weight: 800;
+  margin-bottom: 0.5%;
 }
 
 h3 {
   font-size: 30px;
   margin-bottom: 5px;
+  margin-bottom: 0.5%;
+}
+
+header {
+  margin-bottom: 3.5%;
 }
 
 p {
@@ -90,4 +93,12 @@ main {
   padding: 15px;
   box-shadow: 20px 20px 0px var(--main-grey-color);
   margin-bottom: 2.5%;
+}
+
+main section:not(:last-child) {
+  margin-bottom: 1.5%;
+}
+
+.uppercase-text {
+  text-transform: uppercase;
 }
